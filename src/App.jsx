@@ -240,3 +240,5 @@ export default function App() {
 // Sort comparator
 
 // Mobile drawer toggle state
+
+// Task counts memoization
