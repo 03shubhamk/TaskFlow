@@ -58,3 +58,5 @@ export default function TaskList({
     </div>
   );
 }
+
+// Empty search results state
