@@ -2,10 +2,8 @@ name: TaskFlow CI/CD Pipeline
 
 on:
   push:
-    branches: [main]
-
-  pull_request:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
@@ -15,7 +13,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -28,12 +26,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to Vercel
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: |
-          npm install --global vercel@latest
-          vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
-          vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
-          vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: npx vercel@latest --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
