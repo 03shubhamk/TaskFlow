@@ -125,3 +125,5 @@ export default function SearchFilter({
 }
 
 // Filter reset handler
+
+// View mode switch
