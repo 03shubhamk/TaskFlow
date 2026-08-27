@@ -163,3 +163,5 @@ export default function TaskCard({ task, onEdit, onDelete, onToggleStatus, viewM
 }
 
 // Overdue date check
+
+// Interactive status badge toggle
