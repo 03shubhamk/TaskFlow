@@ -75,3 +75,5 @@ export default function StatsCards({ taskCounts }) {
     </div>
   );
 }
+
+// Percentage rounding logic
