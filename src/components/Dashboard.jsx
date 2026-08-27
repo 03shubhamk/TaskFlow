@@ -198,3 +198,5 @@ export default function Dashboard({
 // Urgent action items filter
 
 // Banner tip widget
+
+// View all tasks button
