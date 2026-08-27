@@ -129,3 +129,5 @@ export default function SearchFilter({
 // View mode switch
 
 // Clear search button
+
+// Priority option dropdown
