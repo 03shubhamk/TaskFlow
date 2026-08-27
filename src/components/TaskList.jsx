@@ -60,3 +60,5 @@ export default function TaskList({
 }
 
 // Empty search results state
+
+// List grid toggle class
