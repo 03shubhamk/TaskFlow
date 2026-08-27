@@ -35,3 +35,5 @@ export default function ConfirmModal({ isOpen, onClose, onConfirm, taskTitle }) 
 // Backdrop blur overlay
 
 // Delete warning icon
+
+// Task title display in modal
