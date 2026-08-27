@@ -235,3 +235,5 @@ export default function TaskForm({ isOpen, onClose, onSave, taskToEdit }) {
 // Validation helper for title
 
 // Category select options
+
+// Default due date initialization
