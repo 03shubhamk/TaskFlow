@@ -167,3 +167,5 @@ export default function TaskCard({ task, onEdit, onDelete, onToggleStatus, viewM
 // Interactive status badge toggle
 
 // List view row styling
+
+// Priority badge colors
