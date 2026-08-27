@@ -82,3 +82,5 @@ export default function Header({
     </header>
   );
 }
+
+// Header date formatter
