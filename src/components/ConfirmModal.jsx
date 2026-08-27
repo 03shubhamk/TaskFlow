@@ -31,3 +31,5 @@ export default function ConfirmModal({ isOpen, onClose, onConfirm, taskTitle }) 
     </div>
   );
 }
+
+// Backdrop blur overlay
