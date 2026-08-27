@@ -147,3 +147,5 @@ export default function Sidebar({
     </>
   );
 }
+
+// Sidebar active item indicator
