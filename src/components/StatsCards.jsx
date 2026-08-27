@@ -79,3 +79,5 @@ export default function StatsCards({ taskCounts }) {
 // Percentage rounding logic
 
 // Card hover elevation
+
+// Trend percentage display
