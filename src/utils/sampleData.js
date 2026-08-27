@@ -60,3 +60,5 @@ export const SAMPLE_TASKS = [
     category: "Documentation"
   }
 ];
+
+// Category tags helper
