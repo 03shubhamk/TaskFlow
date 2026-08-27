@@ -231,3 +231,5 @@ export default function TaskForm({ isOpen, onClose, onSave, taskToEdit }) {
     </div>
   );
 }
+
+// Validation helper for title
