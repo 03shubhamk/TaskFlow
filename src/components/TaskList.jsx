@@ -62,3 +62,5 @@ export default function TaskList({
 // Empty search results state
 
 // List grid toggle class
+
+// Create task button in empty state
