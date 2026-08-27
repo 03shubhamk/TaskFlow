@@ -84,3 +84,5 @@ export default function Header({
 }
 
 // Header date formatter
+
+// Quick search input handler
