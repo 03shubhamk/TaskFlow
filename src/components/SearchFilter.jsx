@@ -123,3 +123,5 @@ export default function SearchFilter({
     </div>
   );
 }
+
+// Filter reset handler
