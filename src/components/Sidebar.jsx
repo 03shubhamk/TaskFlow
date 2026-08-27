@@ -151,3 +151,5 @@ export default function Sidebar({
 // Sidebar active item indicator
 
 // CI/CD badge indicator
+
+// Mobile drawer close handler
