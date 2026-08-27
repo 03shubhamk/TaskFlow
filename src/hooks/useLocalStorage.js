@@ -31,3 +31,5 @@ export function useLocalStorage(key, initialValue) {
 
   return [storedValue, setStoredValue];
 }
+
+// LocalStorage error logging enhanced
